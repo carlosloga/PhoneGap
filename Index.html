@@ -1,0 +1,31 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>P1</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    <script src="cordova-2.3.0.js" type="text/javascript" />
+</head>
+<body>
+    <hr />
+    <h1>prueba 1</h1>
+    <hr />
+     <script type="text/javascript">
+	
+ window.addEventListener('load', function () {
+            alert('ok load');
+            document.addEventListener("deviceready",onDeviceReady, false); 
+        }, false);
+
+     function onDeviceReady() {
+             try {
+                 alert('device ready OK');
+                 // var dispositivo = device.platform;
+                 // alert('device = ' + dispositivo);
+             }
+             catch (e) {
+                 alert('Error (exception) en device ready : ' + e.message);
+             }
+         }
+  </script>
+</body>
+</html>
