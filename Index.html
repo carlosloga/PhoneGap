@@ -10,13 +10,16 @@
     <h1>prueba 1</h1>
     <hr />
      <script type="text/javascript">
-
-     document.addEventListener("deviceready", onDeviceReady, false);
+	
+       window.addEventListener('load', function () {
+             alert('load OK');
+             document.addEventListener("deviceready", onDeviceReady, false);
+         }, false);
 
      function onDeviceReady() {
              try {
                  alert('device ready OK');
-                 dispositivo = device.platform;
+                 var dispositivo = device.platform;
                  alert('device = ' + dispositivo);
              }
              catch (e) {
