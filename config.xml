@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.pruebas.1" version = "3.5.9">
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.pruebas.uno" version = "3.5.9">
 	<name>Prueba1</name>
 	<description>Prueba_1</description>
 	<author href="http://www.settingconsultoria.com" email="">CLG</author>
