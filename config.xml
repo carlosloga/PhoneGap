@@ -4,7 +4,7 @@
 	<description>Prueba_1</description>
 	<author href="http://www.settingconsultoria.com" email="">CLG</author>
 
-  <preference name="phonegap-version" value="2.2.0" />
+  <preference name="phonegap-version" value="2.1.0" />
   <preference name="fullscreen" value="true" />
   <preference name="orientation" value="default" />
   <preference name="target-device" value="universal" />
